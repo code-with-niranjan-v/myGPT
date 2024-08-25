@@ -3,16 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
 <body>
-    <input type="text" class="airole" placeholder="Enter AI Role ">
+    <!-- <input type="text" class="airole" placeholder="Enter AI Role ">
     <input type="text" class="prompt" placeholder="Enter your Prompt">
     <button class="btn-submit">Submit</button>
     <div class="response">
 
+    </div> --> 
+    <div class="container">
+        <div class="flex flex-col h-full justify-end bg-[#0B3954] ">
+            <div class="chat-response flex-1">
+                
+            </div>
+            <div class="prompt-box flex flex-row justify-center mb-10 bg-[#BFD7EA] h-20 m-5 items-center rounded">
+    
+                <input type="text" placeholder="Enter Your Prompt" class="prompt flex-1 bg-[#BFD7EA] h-16 p-4 text-[#0B3954] mr-4 focus:outline-none">
+                <button class="btn-submit  h-12 w-20 me-5 text-white bg-[#0B3954] rounded">Submit</button>
+    
+            </div>
+        </div>
     </div>
-
     <script src="app.js"></script>
 </body>
 </html>
