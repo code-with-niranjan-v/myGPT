@@ -1,4 +1,4 @@
-const url = 'https://aa3c-2405-201-e001-c0d5-7963-6418-9ca3-2372.ngrok-free.app/v1/chat/completions';
+const url = 'https://1eab-2405-201-e001-c0d5-8d99-6fb7-70d2-384c.ngrok-free.app/v1/chat/completions';
 const btn = document.querySelector('.btn-submit');
 const promptInput = document.querySelector('.prompt');
 const responseDiv = document.querySelector('.chat-response');
